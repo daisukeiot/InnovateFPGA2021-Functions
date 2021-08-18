@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctions", "AzureFunctions\AzureFunctions.csproj", "{57154FFE-E077-43E4-942E-565BD242FAA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InnovateFPGA2021-Functions", "AzureFunctions\InnovateFPGA2021-Functions.csproj", "{BB14CAB9-6A99-4A3B-9E33-516EE0ADC2B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{57154FFE-E077-43E4-942E-565BD242FAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57154FFE-E077-43E4-942E-565BD242FAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57154FFE-E077-43E4-942E-565BD242FAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57154FFE-E077-43E4-942E-565BD242FAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB14CAB9-6A99-4A3B-9E33-516EE0ADC2B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB14CAB9-6A99-4A3B-9E33-516EE0ADC2B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB14CAB9-6A99-4A3B-9E33-516EE0ADC2B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB14CAB9-6A99-4A3B-9E33-516EE0ADC2B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D926A4D4-BD06-4F9F-92B4-47415187BC69}
+		SolutionGuid = {550A5A59-A66A-45C8-B35F-B5E29EE7D395}
 	EndGlobalSection
 EndGlobal

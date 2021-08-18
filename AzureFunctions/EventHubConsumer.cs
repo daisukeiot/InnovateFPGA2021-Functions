@@ -9,7 +9,7 @@ using Microsoft.Azure.WebJobs.Extensions.SignalRService;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace Microsoft.InnovateFPGA2021
+namespace Microsoft.InnovateFPGA
 {
     public static class EventHubConsumer
     {
@@ -32,8 +32,7 @@ namespace Microsoft.InnovateFPGA2021
 
         [FunctionName("EventHubConsumer")]
         public static async Task Run([EventHubTrigger("devicetelemetryhub",
-                                                      ConsumerGroup = "telemetry-functions-cg",
-                                                      Connection = "AzureEventHubsConnectionString")] 
+                                                      Connection = "AzureEventHubsConnectionString")]
                                                       EventData[] eventData,
                                      [SignalR(HubName = _signalr_Hub)] IAsyncCollector<SignalRMessage> signalRMessage,
                                      ILogger logger)
