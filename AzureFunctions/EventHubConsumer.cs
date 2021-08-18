@@ -32,7 +32,7 @@ namespace Microsoft.InnovateFPGA2021
 
         [FunctionName("EventHubConsumer")]
         public static async Task Run([EventHubTrigger("devicetelemetryhub",
-                                                      ConsumerGroup = "telemetry-functions-cg",
+                                                      ConsumerGroup = "$default",
                                                       Connection = "AzureEventHubsConnectionString")] 
                                                       EventData[] eventData,
                                      [SignalR(HubName = _signalr_Hub)] IAsyncCollector<SignalRMessage> signalRMessage,
